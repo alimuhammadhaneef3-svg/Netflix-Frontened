@@ -1,0 +1,28 @@
+{
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
+```
+
+Save as **All Files** → **vercel.json**
+
+---
+
+## Step 3 - Push To GitHub
+```
+git add .
+git commit -m "add vercel config"
+git push
+```
+
+---
+
+## Step 4 - Vercel Will Auto Redeploy
+
+Wait 2 minutes then open:
+```
+https://netflix-frontned.vercel.app
