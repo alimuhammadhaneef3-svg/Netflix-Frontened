@@ -8,12 +8,12 @@
 }
 ```
 
-Save with **Ctrl+S**
+**Press Ctrl+S to save**
 
 ---
 
-## ✅ Then Push To GitHub
+## ✅ Then Push
 ```
 git add .
 git commit -m "fix vercel json"
-git push origin master
+git push origin main
